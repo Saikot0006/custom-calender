@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
             calendarView.setEvents(events)
         }
-
+//
         calendarRV.apply {
             layoutManager = LinearLayoutManager(applicationContext)
             adapter = eventAdapter
